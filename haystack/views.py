@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 from django.conf import settings
 from django.core.paginator import Paginator, InvalidPage
 from django.http import Http404
-from django.shortcuts import render_to_response
+from coffin.shortcuts import render_to_response
 from django.template import RequestContext
 from haystack.forms import ModelSearchForm, FacetedSearchForm
 from haystack.query import EmptySearchQuerySet
